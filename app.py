@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Obtén las credenciales de Twilio y el número de teléfono de Twilio de las variables de entorno
 TWILIO_ACCOUNT_SID = os.environ.get('AC148063f3ed9416660faafcd76e73fdcb')
 TWILIO_AUTH_TOKEN = os.environ.get('1016ca53ebb4d2d8d5f26d1a8bed6508')
-TWILIO_PHONE_NUMBER = os.environ.get('+14155238886')
+TWILIO_PHONE_NUMBER = os.environ.get('+12132142321')
 
 
 def generate_response(message_body):
